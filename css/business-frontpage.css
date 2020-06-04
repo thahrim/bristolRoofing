@@ -14,21 +14,57 @@ body {
 .backimage {
   background-image: linear-gradient(rgba(0, 0, 255, 0.3), rgba(248, 248, 0, 0.2)),
   url("../images/back.jpg");
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .navbar-custom {
-  background-color: #F8F800;
+  color: #F8F800;
+  background-color: #000;
 }
 
-.btn-custom:hover {
+/* Modify brand and text color */
+.navbar-dark .nav-item.active .nav-link,
+.navbar-dark .nav-item:focus .nav-link,
+.navbar-dark .nav-item:hover .nav-link{
+        color: #F8F800;
+}
+
+.navbar-dark .navbar-toggler,
+.navbar-dark .navbar-toggler:focus,
+.navbar-dark .navbar-toggler:hover,
+.custom-toggler{
+        border-color: #F8F800;
+        border-style: outset;
+        border-width: 1px;
+}
+.custom-toggler .navbar-toggler-icon {
+            background-image: url(
+"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(166, 166, 0, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+        }
+
+.navbar-brand:first-child{
+  color: #F8F800;
+}
+
+
+.btn-quote:hover {
   background-color: #A6A600;
   color: #000;
 }
-
-.btn-custom {
+.btn-quote {
   background-color: #9AE700;
   color: #000;
+}
+
+.btn-details:hover {
+  background-color: #F8F800;
+  color: #282800;
+  border-color: #282800;
+}
+
+.btn-details {
+  background-color: #282800;
+  color: #FFFF00;
 }
