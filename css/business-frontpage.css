@@ -6,3 +6,29 @@
 body {
   padding-top: 56px;
 }
+
+.back-col{
+    background-color: #FFFFDF;
+}
+
+.backimage {
+  background-image: linear-gradient(rgba(0, 0, 255, 0.3), rgba(248, 248, 0, 0.2)),
+  url("../images/back.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.navbar-custom {
+  background-color: #F8F800;
+}
+
+.btn-custom:hover {
+  background-color: #A6A600;
+  color: #000;
+}
+
+.btn-custom {
+  background-color: #9AE700;
+  color: #000;
+}
