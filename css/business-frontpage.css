@@ -48,6 +48,25 @@ body {
   color: #F8F800;
 }
 
+.navbar-brand {
+  width: 48px;
+  height: 48px;
+  background: url("../images/logo1_sm.png") round;
+  display: inline-block;
+}
+
+.navbar-brand span {
+  padding-left: 64px;
+}
+
+a {
+    position: relative;
+    display: inline-block;
+}
+
+.navbar-brand:hover {
+    background: url("../images/logo1_sm_hover.png") round;
+}
 
 .btn-quote:hover {
   background-color: #A6A600;
@@ -65,6 +84,6 @@ body {
 }
 
 .btn-details {
-  background-color: #282800;
+    background-color: #282800;
   color: #FFFF00;
 }
