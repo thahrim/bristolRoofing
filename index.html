@@ -16,6 +16,14 @@
   <!-- Custom styles for this template -->
   <link href="css/business-frontpage.css" rel="stylesheet">
 
+
+  <script>
+  function getQuote(){
+    window.location.assign("./quote.html");
+    document.getElementById('gForm').src = "https://docs.google.com/forms/d/e/1FAIpQLSei3ItiOUqn2rIvF56UDVwtHrvkuarBSzs4x-QneNXPLWYYJg/viewform?entry.2005620554=NameHere&entry.1166974658=PhoneHere&entry.1065046570=AddressHere";
+  }
+  </script>
+
 </head>
 
 <body>
@@ -72,7 +80,7 @@ quality roofing and repair solutions to the Greater Toronto area for many years.
         <hr>
         <p>Your satisfaction is our priority. Whether it's roofing, eavesthrough, siding, or other carpentry; We specialize and and utilize our expert skills on every job as if we're working on our own home.</p>
         <p>Get your Free Quote today and see why we make the cut and leave you with a smile.</p>
-        <a class="btn btn-quote btn-lg" href="#">Get a Quote &raquo;</a>
+        <a class="btn btn-quote btn-lg" href="./quote.html">Get a Quote &raquo;</a>
       </div>
       <div class="col-md-4 mb-5">
 
@@ -149,6 +157,20 @@ quality roofing and repair solutions to the Greater Toronto area for many years.
         <p>Monday-Friday: 7am-8pm</p>
         <p>Saturday: 9am – 5pm</p>
         <p>Sunday: 9am - 1pm</p>
+      </div>
+      <div class="col-md-4 mb-5 ">
+        <h2>Free Quote</h2>
+        <hr>
+        <form action="./quote.html" method="get">
+          <div class="form-group">
+            <input type="text" class="form-control" id="name" placeholder="Name">
+          </div>
+          <div class="form-group">
+            <input type="tel" class="form-control" id="phone" aria-describedby="phoneHelp" placeholder="Phone number">
+            <small id="phoneHelp" class="form-text text-muted">We'll never share your number with anyone else.</small>
+          </div>
+          <button class="btn btn-quote btn-lg" type="submit" value="submit" class="btn btn-primary">Get Quote &raquo;</button>
+        </form>
       </div>
     </div>
     <!-- /.row -->

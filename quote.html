@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Bristol Roofing - Canada</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/business-frontpage.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-custom navbar-expand-lg navbar-dark  fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="./index.html">
+        <span>Bristol Roofing</span></a>
+      <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header -->
+  <header class="bg-primary py-5 mb-5 backimage">
+    <div class="container h-100 ">
+      <div class="row h-100 align-items-center">
+        <div class="col-lg-12">
+          <h1 class="display-4 text-white mt-5 mb-2">Bristol Roofing</h1>
+          <p class="lead mb-5 text-white">Bristol Roofing is a full-service residential and commercial roofing company that has been providing
+quality roofing and repair solutions to the Greater Toronto area for many years.</p>
+          <img class="float-right" src="./images/payment_methods.png" width="240px"/>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Page Content -->
+  <div class="container back-col">
+
+    <div class="row">
+        <iframe id="gForm" class="col-md-8 mb-5" src="https://docs.google.com/forms/d/e/1FAIpQLSei3ItiOUqn2rIvF56UDVwtHrvkuarBSzs4x-QneNXPLWYYJg/viewform?embedded=true" width="480" height="1250" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+    </div>
+    <!-- /.row -->
+  </div>
+  <!-- /.container -->
+
+  <!-- Footer -->
+  <footer class="py-5 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white">Copyright &copy; Bristol Roofing 2020</p>
+    </div>
+    <!-- /.container -->
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- quote form updates -->
+  <script>
+  var getUrlParameter = function getUrlParameter(sParam) {
+    var sPageURL = decodeURIComponent(window.location.search.substring(1)),
+        sURLVariables = sPageURL.split('&'),
+        sParameterName,
+        i;
+
+    for (i = 0; i < sURLVariables.length; i++) {
+        sParameterName = sURLVariables[i].split('=');
+
+        if (sParameterName[0] === sParam) {
+            return sParameterName[1] === undefined ? true : sParameterName[1];
+        }
+    }
+};
+var name = getUrlParameter('name');
+var phone = getUrlParameter('phone');
+document.getElementById('gForm').src="https://docs.google.com/forms/d/e/1FAIpQLSei3ItiOUqn2rIvF56UDVwtHrvkuarBSzs4x-QneNXPLWYYJg/viewform?embedded=true&usp=pp_url&entry.2005620554="+ name +"&entry.1166974658="+ phone +"&entry.1065046570=";
+  </script>
+
+
+</body>
+
+</html>
