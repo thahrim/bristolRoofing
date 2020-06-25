@@ -36,11 +36,16 @@ hr {
   border:none;
   color:#333;
   background-color:#333;
-  
+
   margin-top: 0px;
 }
 
 h2 {
   font-size: 2.2em;
   margin-top: 20px;
+}
+
+.quoteForm{
+  text-align: center;
+  padding-bottom: 10px;
 }
