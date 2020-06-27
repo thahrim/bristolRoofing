@@ -16,6 +16,9 @@
   <!-- Custom styles for this template -->
   <link href="css/business-frontpage.css" rel="stylesheet">
 
+  <!-- Font used -->
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500;700;900&display=swap" rel="stylesheet">
+
 
   <script>
   function getQuote(){
@@ -46,7 +49,7 @@
             <a class="nav-link" href="./about.html">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Services</a>
+            <a class="nav-link" href="./services.html">Services</a>
           </li>
           <li class="nav-item active">
             <a class="nav-link" href="#">Contact<span class="sr-only">(current)</span></a>
@@ -61,20 +64,23 @@
     <div class="container h-100 ">
       <div class="row h-100 align-items-center">
         <div class="col-lg-12">
-          <h1 class="display-4 text-white mt-5 mb-2">Contact Bristol Roofing</h1>
-          <p class="lead mb-5 text-white">Bristol Roofing is a full-service residential and commercial roofing company that has been providing
+          <h1 class="display-2 mt-5 mb-2 borderOnText" style="color: #FFD72F;">Bristol Roofing</h1>
+          <p class="lead mb-5" style="color: #FFD72F;">Bristol Roofing is a full-service residential and commercial roofing company that has been providing
 quality roofing and repair solutions to the Greater Toronto area for many years.</p>
-          <img class="float-right" src="./images/payment_methods.png" width="240px"/>
+          <img class="float-right d-none d-lg-block" src="./images/payment_methods.png" width="325px"/>
+          <img class="float-left d-lg-none" src="./images/payment_methods.png" width="325px"/>
+          <h3 class="float-left borderOnText d-none d-lg-block" style=" color: #FFD72F;">Bonded | Insured | WSIB</h3>
+          <h3 class="float-left borderOnText d-lg-none" style=" color: #FFD72F; padding-top: 25px;">Bonded | Insured | WSIB</h3>
         </div>
       </div>
     </div>
   </header>
 
   <!-- Page Content -->
-  <div class="container back-col">
+  <div class="container back-col" style="border-top: solid 2px; padding-top: 10px; margin-bottom: 50px;">
 
     <div class="row">
-      <div class="col-md-8 mb-5" style="text-align: center;">
+      <div class="col-md-12 mb-5" style="text-align: center;">
         <h2>Contact Us</h2>
         <hr>
         <h3>Bristol Roofing Residental & Commercial</h3>                <abbr title="Phone Number"><a class="btn btn-quote btn-lg" href="callto:+16475685259">&#9742; (647) 568-5259</a></abbr>
@@ -116,52 +122,6 @@ quality roofing and repair solutions to the Greater Toronto area for many years.
             </th>
           </tr>
         </table>
-      </div>
-
-      <div class="col-md-4 mb-5">
-
-        <div style="text-decoration:none; overflow:hidden;max-width:100%;width:330px;height:250px;"><div id="canvasfor-googlemap" style="height:100%; width:100%;max-width:100%;"><iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=2482+Dufferin+St.,+Unit+202+Toronto,+ON+M6B+3R1&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe></div><a class="googlemap-code-enabler" href="https://dedicatedhosting.pro" id="authorizemap-data">here</a><style>#canvasfor-googlemap img{max-width:none!important;background:none!important;font-size: inherit;font-weight:inherit;}</style></div>
-        <hr style="height:2px;border:none;color:#333;background-color:#333;"/>
-      </div>
-    </div>
-    <!-- /.row -->
-
-    <div class="row">
-      <div class="col-md-4 mb-5">
-        <div class="card h-100">
-          <img class="card-img-top" src="./images/shingles1.jpg" alt="">
-          <div class="card-body">
-            <h4 class="card-title">Shingles</h4>
-            <p class="card-text">The roof is your home's first line of defence against the climate.</p><p>This is why the quality of the work done on your roof is crucial.</p>
-          </div>
-          <div class="card-footer">
-            <a href="./shingles.html" class="btn btn-details">Find Out More!</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4 mb-5">
-        <div class="card h-100">
-          <img class="card-img-top" src="./images/flatroof.jpg" alt="">
-          <div class="card-body">
-            <h4 class="card-title">Flat roofs</h4>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus totam ut praesentium aut.</p>
-          </div>
-          <div class="card-footer">
-            <a href="#" class="btn btn-details">Find Out More!</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4 mb-5">
-        <div class="card h-100">
-          <img class="card-img-top" src="./images/skylights.jpg" alt="">
-          <div class="card-body">
-            <h4 class="card-title">Skylights</h4>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
-          </div>
-          <div class="card-footer">
-            <a href="#" class="btn btn-details">Find Out More!</a>
-          </div>
-        </div>
       </div>
     </div>
     <!-- /.row -->
