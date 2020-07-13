@@ -21,7 +21,7 @@
 
  .u__bgColor--brand {
      background-color: #000;
-     color: #FFFF00;
+     color: #FFD72F;
 
  }
 
@@ -32,7 +32,7 @@
  }
 
 hr {
-  height:2px;
+  height:5px;
   border:none;
   color:#333;
   background-color:#333;
@@ -45,7 +45,20 @@ h2 {
   margin-top: 20px;
 }
 
+h2, h3 {
+  font-family: 'Bowlby One SC', sans-serif !important;
+  text-align: center;
+}
 .quoteForm{
   text-align: center;
   padding-bottom: 10px;
+}
+
+ul, li{
+    font-family: 'Noto Sans JP', sans-serif !important;
+    color: #000; text-shadow: 1px 1px #B08E00;
+}
+
+img {
+  border: 4px solid #333;
 }

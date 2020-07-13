@@ -8,6 +8,10 @@ body {
   font-family: 'Noto Sans JP', sans-serif !important;
 }
 
+h2, h1, h3, h4{
+  text-transform: uppercase;
+}
+
 .back-col{
     background-color: #FFD72F;
       border: solid 2px #000;
@@ -19,11 +23,32 @@ body {
 -webkit-text-fill-color: #FFD72F; /* Will override color (regardless of order) */
 -webkit-text-stroke-width: 1px;
 -webkit-text-stroke-color: black;
+text-shadow: 2px 2px #000;
+  font-family: 'Bowlby One SC', sans-serif !important;
+  text-transform: uppercase;
+}
+
+.bondedText {
+-webkit-text-fill-color: #FFD72F; /* Will override color (regardless of order) */
+-webkit-text-stroke-width: 1px;
+-webkit-text-stroke-color: black;
+text-shadow: 2px 2px #000;
+  font-family: 'Bowlby One SC', sans-serif !important;
+  text-transform: uppercase;
+  font-size: 1.4em;
 }
 
 .card {
-  border: solid 2px #000;
-  background-color: #FFF;
+  border: solid 1px #000;
+  background-color: #000;
+  color: #FFD72F;
+}
+
+.card-title {
+  text-shadow: 1px 1px #B08E00;
+  text-transform: uppercase;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #FFD72F;
 }
 
 .backimage {
@@ -38,13 +63,17 @@ body {
 .navbar-custom {
   color: #F8F800;
   background-color: #000;
+  font-family: 'Bowlby One SC', sans-serif !important;
+  font-size: 1em;
 }
 
 /* Modify brand and text color */
 .navbar-dark .nav-item.active .nav-link,
 .navbar-dark .nav-item:focus .nav-link,
 .navbar-dark .nav-item:hover .nav-link{
-        color: #F8F800;
+        color: #FFD72F;
+          font-family: 'Bowlby One SC', sans-serif !important;
+          font-size: 1.1em;
 }
 
 .navbar-dark .navbar-toggler,
@@ -70,6 +99,16 @@ body {
   background: url("../images/logo1_sm.png") round;
   display: inline-block;
 
+}
+
+.logo {
+  color: black;
+-webkit-text-fill-color: #FFD72F; /* Will override color (regardless of order) */
+-webkit-text-stroke-width: 1px;
+text-shadow: 2px 2px #000;
+  font-family: 'Bowlby One SC', sans-serif !important;
+  text-transform: uppercase;
+  font-size: 25px;
 }
 
 .navbar-brand span {
@@ -102,5 +141,6 @@ a {
 
 .btn-details {
     background-color: #282800;
-  color: #FFFF00;
+  color: #FFD72F;
+  border: solid 1px #FFD72F;
 }
