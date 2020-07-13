@@ -3,6 +3,7 @@
  * Copyright 2013-2019 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-business-frontpage/blob/master/LICENSE)
  */
+
  .section_number {
      font-family: helvetica-neue-heavy-condensed,Helvetica Neue,Helvetica,Arial,sans-serif;
      line-height: 1em;
@@ -52,11 +53,6 @@ h2, h3 {
 .quoteForm{
   text-align: center;
   padding-bottom: 10px;
-}
-
-ul, li{
-    font-family: 'Noto Sans JP', sans-serif !important;
-    color: #000; text-shadow: 1px 1px #B08E00;
 }
 
 img {
