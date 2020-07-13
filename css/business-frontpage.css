@@ -12,6 +12,7 @@ h2, h1, h3, h4{
   text-transform: uppercase;
 }
 
+
 .back-col{
     background-color: #FFD72F;
       border: solid 2px #000;
@@ -58,6 +59,16 @@ text-shadow: 2px 2px #000;
   background-repeat: no-repeat;
   background-position: center;
   border: solid 2px #000;
+
+
+  /* Set a specific height */
+  min-height: 400px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .navbar-custom {
